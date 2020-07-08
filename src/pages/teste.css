@@ -1,0 +1,12 @@
+.ss{
+	text-align: justify;
+	background: #d8d8d8;
+	margin-left: 
+}
+
+  /* "lint": "eslint --ext .js, .vue ./", */
+
+<q-avatar size="68px">
+<img src="~assets/remove/Max.jpg">
+<q-badge floating lign="bottom" style="bottom: 3px; top: 45px; !important; border-radius: 50%;     color: rgb(255, 255, 255); background: #00ca57;">+</q-badge>
+</q-avatar>
