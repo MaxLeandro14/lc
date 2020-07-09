@@ -14,7 +14,7 @@ Max Leandro Silva
     <q-list style="min-width: 100px">
 
       <q-item clickable v-ripple>
-        <q-item-section avatar style="min-width: 40px; color: rgb(0, 106, 146);">
+        <q-item-section avatar style="min-width: 40px; color: rgb(171, 168, 168);">
           <q-icon name="account_circle" />
         </q-item-section>
 
@@ -46,7 +46,7 @@ Max Leandro Silva
 
 <div class="col" style="text-align: center">
 
-<q-avatar size="68px" >
+<q-avatar size="72px" >
 <img src="~assets/remove/Max.jpg" style="border: 4px solid #fff; margin-bottom: 12px;">
 <q-badge floating lign="bottom" style="bottom: 3px; top: 45px; !important; border-radius: 50%; color: rgb(255, 255, 255); background: #00ca57;">+</q-badge>
 
@@ -56,12 +56,12 @@ Max Leandro Silva
 </div>
 
 <div class="col" style="text-align: left">
-
+<!--
 <p class="primary-font ext-subtitle1">Seguidores: <span class="text-bold">221</span></p>
 
 <p class="primary-font ext-subtitle1">Seguindo: <span class="text-bold">221</span></p>
-
-<p class="primary-font ext-subtitle1"><span style="color: #999999">Cod: 221</span></p>
+-->
+<p class="primary-font ext-subtitle1"><span style="color: #999999">Codigo: 221</span></p>
 <p><button class="btn-editar">Editar</button></p>
 
 </div>
@@ -87,7 +87,7 @@ Max Leandro Silva
       />
 
 <div style="margin-top: 14px"></div>
-
+<div class="q-pa-md q-gutter-sm">
 <div class="row">
 
         <div class="col-4 bloco2" style="text-align: center">
@@ -107,6 +107,7 @@ Max Leandro Silva
         </div>
 
     </div>
+</div>
 
 </div>
 </template>
@@ -122,22 +123,23 @@ export default {
 </script>
 <style>
 .bio{
-padding: 18px 9px;
+  padding: 18px 9px 26px 9px;
 }
 .img-menu{
   width: 30px
 }
 p {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .btn-editar{
-width: 115px;
-font-size: 11px;
-text-transform: capitalize;
-border: 1px solid #00d15a;
-background: #fff;
-border-radius: 5px;
+  width: 115px;
+  font-size: 11px;
+  text-transform: capitalize;
+  border: 1px solid #00d15a;
+  background: #fff;
+  border-radius: 5px;
+  margin: 6px 0;
 }
 .bloco2 img {
   max-width: 74px;

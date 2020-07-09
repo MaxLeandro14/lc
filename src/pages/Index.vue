@@ -3,15 +3,17 @@
     <Header />
     <div class="q-pa-md q-gutter-sm">
       <div class="row">
-        <q-input bg-color="white" style="width: 100%; margin: 0px auto 20px auto; font-family: poppins; color: #d8d8d8;" rounded filled  v-model="text" label="Pesquise por livro...">
-          <template v-slot:append style="font-size: 10px;">
+        <q-input bg-color="white" style="width: 100%; margin: 0px auto 20px auto; font-family: poppins; color: #d8d8d8; font-size: 8px;" rounded filled  v-model="text" label="Pesquise por livro...">
+          <template v-slot:append>
             <q-icon name="search" />
           </template>
         </q-input>
       </div>
       <div class="row flex-center justify-between">
         <p class="traco">Salas em aberto</p>
-        <p class="todas">Ver todas</p>
+        <router-link :to="{ name: 'todasSalas'}" >
+          <p class="todas">Ver todas <q-icon name="forward" /></p>
+        </router-link>
       </div>
       <div class="row">
         <div class="slide">
@@ -44,8 +46,38 @@
     </div>
 
     <div class="q-pa-md q-gutter-sm">
-      <span class="enter-cod">Entrar com codigo</span>
+      <span class="enter-cod" @click="codSala = true">Entrar com codigo</span>
     </div>
+
+    <!-- -->
+    <q-dialog v-model="codSala" seamless position="bottom">
+      <q-card>
+        <q-card-section class="row items-center no-wrap">
+
+            <div class="col-12">
+
+              <q-field outlined hint="Codigo da sala" dense="dense" readonly>
+
+                <template v-slot:control>
+                  <div class="self-center full-width no-outline"></div>
+                </template>
+
+                <template v-slot:append>
+                  <q-btn round dense flat icon="send" style="color: #00ca57;" />
+                </template>
+
+                <template v-slot:after>
+                  <q-btn flat round icon="close" v-close-popup style="color: rgb(212, 98, 75);" />
+                </template>
+
+              </q-field>
+
+          </div>
+
+        </q-card-section>
+      </q-card>
+    </q-dialog>
+    <!-- -->
 
   </div>
 </template>
@@ -58,7 +90,8 @@ export default {
   name: 'PageIndex',
   data () {
     return {
-      text: ''
+      text: '',
+      codSala: false
     }
   },
   computed: {
@@ -70,8 +103,10 @@ export default {
 <style>
 .traco{
   font-family: 'segoi';
-  font-size: 16px;
+  font-size: 17px;
+  color: #5d5a5a;
   float: left;
+  padding: 4px 0px;
 }
 .traco::before{
   content: '';
@@ -85,6 +120,8 @@ export default {
 .todas{
   float: right;
   color: #ffa18e;
+  font-size: 15px;
+  padding: 4px 0px;
 }
 .slide{
   display: flex;
@@ -105,14 +142,16 @@ export default {
   text-align: center;
 }
 .bloco p {
-  font-size: 12px;
+  font-size: 13px;
   color: #5b5b5b;
+  padding: 6px 0px;
 }
 .enter-cod{
   background: #00ca57;
   color: #fff;
-  padding: 14px 19px;
+  padding: 20px 19px;
   border-radius: 16px;
+  font-size: 16px;
   display: block;
   width: 100%;
   margin-bottom: 62px;
@@ -121,10 +160,10 @@ export default {
 .enter-cod::after{
   content: '';
   background: url('~assets/jovens-lendo.svg') no-repeat;
-  height: 64px;
-  width: 83px;
+  height: 79px;
+  width: 102px;
   right: 2px;
-  top: -9px;
+  top: -6px;
   position: absolute;
 }
 </style>

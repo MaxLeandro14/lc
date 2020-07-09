@@ -4,8 +4,16 @@
       <div class="col-2 text-center">
         <img @click="leftDrawerOpen = !leftDrawerOpen" class="img-menu" src="~assets/menu.svg">
       </div>
-      <div class="col text-center primary-font ext-subtitle1"><span class="text-bold">221<br></span> Seguindo</div>
-      <div class="col text-center primary-font ext-subtitle1"><span class="text-bold">221<br></span> Seguidores</div>
+      <div class="col text-center primary-font ext-subtitle1 link-person">
+        <router-link :to="{ name: 'seguindo'}" >
+          <span class="text-bold">221<br></span> Seguindo
+        </router-link>
+      </div>
+      <div class="col text-center primary-font ext-subtitle1">
+        <router-link :to="{ name: 'seguidores'}" >
+          <span class="text-bold">221<br></span> Seguidores
+        </router-link>
+        </div>
       <div class="col-2">
         <q-btn dense round flat icon="notifications_none" @click="drawerRight = !drawerRight" >
           <q-badge color="red" floating transparent>
@@ -121,10 +129,15 @@ export default {
   padding: 9px;
   border-bottom: 1px solid #e6e3e3;
   background: #f9f6f6;
+  font-size: 17px;
   margin-bottom: 14px;
   color: #1d1d1d;
 }
 .notifica-msg > div {
-  border-bottom: 1px solid #d0cfcf;
+  padding: 5px 7px;
+  background: #f3f3f3;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #484545;
 }
 </style>

@@ -9,7 +9,10 @@ const routes = [
       { path: '/salasPart', name: 'salaParticipando', component: () => import('pages/SalasParticipando.vue') },
       { path: '/searchPerfil', name: 'searchPerfil', component: () => import('pages/SearchPerfil.vue') },
       { path: '/settings', name: 'settings', component: () => import('pages/Settings.vue') },
-      { path: '/myPerfil', name: 'myPerfil', component: () => import('pages/MyPerfil.vue') }
+      { path: '/myPerfil', name: 'myPerfil', component: () => import('pages/MyPerfil.vue') },
+      { path: '/todasSalas', name: 'todasSalas', component: () => import('pages/TodasSalas.vue') },
+      { path: '/seguindo', name: 'seguindo', component: () => import('pages/Seguindo.vue') },
+      { path: '/seguidores', name: 'seguidores', component: () => import('pages/Seguidores.vue') }
     ]
   },
   {

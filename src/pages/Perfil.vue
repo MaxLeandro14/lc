@@ -16,7 +16,7 @@ Max Leandro Silva
     <q-list style="min-width: 100px">
 
       <q-item clickable v-ripple>
-        <q-item-section avatar style="min-width: 40px; color: rgb(0, 106, 146);">
+        <q-item-section avatar style="min-width: 40px; color: rgb(171, 168, 168);">
           <q-icon name="account_circle" />
         </q-item-section>
 
@@ -46,7 +46,7 @@ Max Leandro Silva
 
 <div class="row flex-center">
 
-  <q-avatar size="68px" >
+  <q-avatar size="72px" >
   <img src="~assets/remove/Max.jpg" style="border: 4px solid #fff; margin-bottom: 12px;">
   </q-avatar>
 
@@ -117,23 +117,24 @@ export default {
 </script>
 <style>
 .bio{
-padding: 18px 9px;
+  padding: 18px 9px 26px 9px;
 }
 .img-menu{
   width: 30px
 }
 p {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .btn-seguir{
-width: 115px;
-font-size: 11px;
-text-transform: capitalize;
-background: #00d15a;
-border: none;
-color: #fff;
-border-radius: 5px;
+  width: 104px;
+  font-size: 11px;
+  text-transform: capitalize;
+  background: #00d15a;
+  padding: 3px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
 }
 .bloco2 img {
   max-width: 74px;
