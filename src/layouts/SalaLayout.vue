@@ -2,12 +2,12 @@
   <div>
   <div class="fixed-top" style="z-index: 30;">
 
-  <q-toolbar style="background: rgb(96, 128, 100); color: #fff">
+  <q-toolbar style="background: rgb(251, 251, 251); color: #000">
   <q-btn :to="{ name: 'salaParticipando' }" flat round dense icon="keyboard_backspace"/>
   <q-toolbar-title class="primary-font" style="font-size: 16px;">
     O inimigo
   </q-toolbar-title>
-  <q-btn flat round dense icon="more_vert" style="color: #fff">
+  <q-btn flat round dense icon="more_vert" style="color: rgb(0, 209, 90);">
 
     <q-menu
       transition-show="jump-down"
@@ -55,7 +55,8 @@
     v-model="tabSala"
     dense
     no-caps
-    style="background: rgb(96, 128, 100); color: #fff;"
+    indicator-color="green"
+    style="background: rgb(251, 251, 251); color: rgb(95, 94, 94);"
   >
     <q-route-tab name="leitura" label="Leitura" to="/room" />
     <q-route-tab name="registro" label="Registro" to="/registro" />

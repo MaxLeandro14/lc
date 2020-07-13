@@ -5,12 +5,12 @@
       <div class="row">
         <q-input bg-color="white" style="width: 100%; margin: 0px auto 20px auto; font-family: poppins; color: #d8d8d8; font-size: 8px;" rounded filled  v-model="text" label="Pesquise por livro...">
           <template v-slot:append>
-            <q-icon name="search" />
+            <q-icon name="search" style="color: #ed5c7d;"/>
           </template>
         </q-input>
       </div>
       <div class="row flex-center justify-between">
-        <p class="traco">Salas em aberto</p>
+        <p class="traco">Salas disponíveis</p>
         <router-link :to="{ name: 'todasSalas'}" >
           <p class="todas">Ver todas <q-icon name="forward" /></p>
         </router-link>
@@ -41,6 +41,21 @@
             <p><span class="color-cinza">Por</span> Editora Rocco</p>
           </div>
 
+          <div class="bloco">
+            <img src="~assets/remove/ebook.jpg">
+            <p><span class="color-cinza">Por</span> Editora Rocco</p>
+          </div>
+
+          <div class="bloco">
+            <img src="~assets/remove/ebook.jpg">
+            <p><span class="color-cinza">Por</span> Editora Rocco</p>
+          </div>
+
+          <div class="bloco">
+            <img src="~assets/remove/ebook.jpg">
+            <p><span class="color-cinza">Por</span> Editora Rocco</p>
+          </div>
+
         </div>
       </div>
     </div>
@@ -51,7 +66,7 @@
 
     <!-- -->
     <q-dialog v-model="codSala" seamless position="bottom">
-      <q-card>
+      <q-card style="width: 100%; height: 30vh;">
         <q-card-section class="row items-center no-wrap">
 
             <div class="col-12">
@@ -59,15 +74,17 @@
               <q-field outlined hint="Codigo da sala" dense="dense" readonly>
 
                 <template v-slot:control>
-                  <div class="self-center full-width no-outline"></div>
+                  <div class="self-center full-width no-outline">
+                    <q-input color="green" bg-color="white" filled v-model="codSalaText" />
+                  </div>
                 </template>
 
                 <template v-slot:append>
-                  <q-btn round dense flat icon="send" style="color: #00ca57;" />
+                  <q-btn round dense flat icon="send" style="color: #00ca57; margin-top: 7px;" />
                 </template>
 
                 <template v-slot:after>
-                  <q-btn flat round icon="close" v-close-popup style="color: rgb(212, 98, 75);" />
+                  <q-btn flat round icon="close" v-close-popup style="color: rgb(212, 98, 75); margin-top: 5px;" />
                 </template>
 
               </q-field>
@@ -91,7 +108,8 @@ export default {
   data () {
     return {
       text: '',
-      codSala: false
+      codSala: false,
+      codSalaText: ''
     }
   },
   computed: {
@@ -111,23 +129,23 @@ export default {
 .traco::before{
   content: '';
   display: block;
-  background: #00d15a;
-  height: 19px;
+  background: #ed5c7d;
+  height: 22px;
   width: 3px;
   float: left;
   margin-right: 5px;
 }
 .todas{
   float: right;
-  color: #ffa18e;
+  color: #ec407a ;
   font-size: 15px;
   padding: 4px 0px;
 }
 .slide{
   display: flex;
   justify-content: space-between;
-  width: 100vw;
-  overflow: hidden;
+  width: 100%;
+  overflow: scroll;
 }
 .slide img {
   max-width: 90px;

@@ -102,10 +102,10 @@ p {
   border-radius: 5px;
 }
 .bloco2 img {
-  max-width: 90px;
+  max-width: 95px;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.1);
   margin: 4px;
-  max-height: 133px;
+  max-height: 141px;
 }
 .color-cinza{
   color: #9b9b9b;

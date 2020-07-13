@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row  flex-center">
-      <div class="col text-center primary-font ext-subtitle1"><span class="text-bold">221<br></span>Participantes</div>
+
       <div class="col text-center">
         <q-knob
           show-value
@@ -9,23 +9,22 @@
           v-model="value"
           size="50px"
           :thickness="0.22"
-          color="teal"
+          color="green"
           track-color="grey-3"
           class="q-ma-md"
           >
                   {{ value }}%
          </q-knob>
-           <p>Concluido</p>
+           <p class="concluid">Concluido</p>
         </div>
-        <div class="col text-center primary-font ext-subtitle1"><span class="text-bold">221<br></span>Moderadores</div>
 
     </div>
 <div class="q-pa-md row flex-center items-center q-gutter-md">
-  <q-btn color="white" no-caps text-color="primary" label="Anotações">
+  <q-btn color="white" no-caps text-color="pink-5" label="Anotações">
     <q-badge color="orange" floating>22</q-badge>
   </q-btn>
 
-  <q-btn color="white" no-caps text-color="primary" label="Cronograma" />
+  <q-btn color="white" no-caps text-color="pink-5" label="Cronograma" />
 
 </div>
 <div class="q-pa-md row items-center q-gutter-md">
@@ -33,13 +32,11 @@
 <q-card class="my-card" style="width: 100%; text-align: center;">
 <q-card-section>
 
-<p style="font-size: 17px">Registrar Leitura</p>
+<p style="font-size: 17px; color: #4caf50;"><strong>Registrar Leitura</strong></p>
 <div>
 
-<q-field color="green" label="Total paginas: 370" stack-label>
-<template v-slot:control>
-<div class="self-center full-width no-outline" style="font-size: 19px; padding: 9px 0;" tabindex="0">220</div>
-</template>
+<q-field color="green" label="Total de paginas: 370" stack-label>
+<q-input v-model="paginaAtual" :dense="dense" />
 </q-field>
 
 <q-btn flat round color="secondary" icon="exposure_plus_2" />
@@ -67,8 +64,17 @@ export default {
   data () {
     return {
       value: 81,
-      fab2: false
+      fab2: false,
+      dense: false,
+      paginaAtual: 224
+
     }
   }
 }
 </script>
+<style>
+.concluid{
+  color: #8e8e8e;
+  margin-top: -11px;
+}
+</style>

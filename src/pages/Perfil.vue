@@ -80,19 +80,19 @@ Max Leandro Silva
 
 <div class="row">
 
-        <div class="col-4 bloco2" style="text-align: center">
+        <div class="col-4 bloco3" style="text-align: center">
           <img src="~assets/remove/ebook.jpg">
         </div>
 
-        <div class="col-4 bloco2" style="text-align: center">
+        <div class="col-4 bloco3" style="text-align: center">
           <img src="~assets/remove/ebook.jpg">
         </div>
 
-        <div class="col-4 bloco2" style="text-align: center">
+        <div class="col-4 bloco3" style="text-align: center">
           <img src="~assets/remove/ebook.jpg">
         </div>
 
-         <div class="col-4 bloco2" style="text-align: center">
+         <div class="col-4 bloco3" style="text-align: center">
           <img src="~assets/remove/ebook.jpg">
         </div>
 
@@ -136,7 +136,7 @@ p {
   color: #fff;
   border-radius: 5px;
 }
-.bloco2 img {
+.bloco3 img {
   max-width: 74px;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.1);
   margin: 4px;

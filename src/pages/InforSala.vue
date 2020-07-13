@@ -15,8 +15,9 @@
                 v-model="tab"
                 dense
                 class="text-grey"
-                active-color="primary"
-                indicator-color="primary"
+                no-caps
+                active-color="pink"
+                indicator-color="pink"
                 align="justify"
                 narrow-indicator
               >
