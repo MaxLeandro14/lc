@@ -45,8 +45,17 @@
 
               <q-tab-panel name="regras">
                 <span>
+                  <div class="regras2">
+                    <p class="pri-bar">Leitura</p>
+                    <p class="seg-bar">Debate</p>
+                  </div>
 
-                  <Calendar :attributes='attrs' :min-date='new Date(2018, 0, 1)' :max-date='new Date(2018, 0, 15)' ></Calendar>
+                  <Calendar
+                    :columns="$screens({ lg: 2 }, 1)"
+                    :attributes="attributes"
+                    :min-date='new Date(2018, 0, 1)'
+                    :max-date='new Date(2018, 0, 15)'
+                    />
 
                 </span>
               </q-tab-panel>
@@ -100,16 +109,17 @@ export default {
       tab: 'infor',
       concordo: false,
       expandir: false,
-      attrs: [
+      attributes: [
         {
-          key: 'today',
-          highlight: {
-            backgroundColor: '#ff8080'
+          bar: {
+            color: 'red',
+            class: 'my-dot-class'
           },
-          contentStyle: {
-            color: '#fafafa'
-          },
-          dates: [new Date(2018, 0, 1), new Date(2018, 0, 15)]
+          dates: [new Date(2018, 0, 1), new Date(2018, 0, 10), new Date(2018, 0, 22)]
+        },
+        {
+          bar: 'green',
+          dates: [new Date(2018, 0, 4), new Date(2018, 0, 10), new Date(2018, 0, 15)]
         }
       ]
     }
@@ -155,5 +165,35 @@ export default {
   bottom: 0;
   width: 100%;
   font-size: 18px;
+}
+.regras2 {
+  padding: 3px 12px;
+  margin-bottom: 7px;
+}
+.regras2 p {
+  color: #888888;
+  margin: 0;
+  font-family: poppins;
+  font-size: 13px;
+}
+.pri-bar::after{
+  content: '';
+  display: block;
+  height: 4px;
+  width: 15px;
+  background: #38a169;
+  float: left;
+  margin-right: 7px;
+  margin-top: 6px;
+}
+.seg-bar::after{
+  content: '';
+  display: block;
+  height: 4px;
+  width: 15px;
+  background: #e53e3e;
+  float: left;
+  margin-right: 7px;
+  margin-top: 6px;
 }
 </style>

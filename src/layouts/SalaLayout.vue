@@ -23,10 +23,6 @@
       </q-item>
 
       <q-item clickable>
-        <q-item-section>Histórico de Leitura</q-item-section>
-      </q-item>
-
-      <q-item clickable>
         <q-item-section>Informações e Regras</q-item-section>
       </q-item>
 

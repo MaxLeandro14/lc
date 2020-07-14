@@ -22,7 +22,7 @@
               <span>Max Leandro Silva</span>
               <span>30%</span>
             </div>
-            <q-linear-progress :value="progress1" :buffer="buffer" color="green" class="q-mt-sm" />
+            <q-linear-progress :value="progress1" color="green" class="q-mt-sm" />
           </div>
       </div>
       </div>
@@ -41,7 +41,7 @@
               <span>Max Leandro Silva</span>
               <span>30%</span>
             </div>
-            <q-linear-progress :value="progress1" :buffer="buffer" color="green" class="q-mt-sm" />
+            <q-linear-progress :value="progress1" color="green" class="q-mt-sm" />
           </div>
       </div>
       </div>
@@ -60,7 +60,7 @@
               <span>Max Leandro Silva</span>
               <span>30%</span>
             </div>
-            <q-linear-progress :value="progress1" :buffer="buffer" color="green" class="q-mt-sm" />
+            <q-linear-progress :value="progress1" color="green" class="q-mt-sm" />
           </div>
       </div>
       </div>
@@ -81,7 +81,6 @@ export default {
       dense: false,
       paginaAtual: 224,
       progress1: 0.3
-
     }
   },
   computed: {

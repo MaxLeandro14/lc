@@ -28,6 +28,9 @@ const routes = [
     path: '/perfil', name: 'perfil', component: () => import('pages/Perfil.vue')
   },
   {
+    path: '/anotacao', name: 'anotacao', component: () => import('pages/Anotacao.vue')
+  },
+  {
     path: '*',
     component: () => import('pages/Error404.vue')
   }

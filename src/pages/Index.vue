@@ -3,7 +3,7 @@
     <Header />
     <div class="q-pa-md q-gutter-sm">
       <div class="row">
-        <q-input bg-color="white" style="width: 100%; margin: 0px auto 20px auto; font-family: poppins; color: #d8d8d8; font-size: 8px;" rounded filled  v-model="text" label="Pesquise por livro...">
+        <q-input bg-color="white" style="width: 100%; margin: 0px auto 20px auto; font-family: poppins; color: #d8d8d8;" rounded filled  v-model="text" label="Pesquise por livro...">
           <template v-slot:append>
             <q-icon name="search" style="color: #ed5c7d;"/>
           </template>
