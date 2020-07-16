@@ -8,7 +8,7 @@
           readonly
           font-size="12px"
           v-model="value"
-          size="50px"
+          size="60px"
           :thickness="0.22"
           color="green"
           track-color="grey-3"
@@ -29,6 +29,7 @@
   <q-btn color="white" no-caps text-color="pink-5" label="Cronograma" @click="cronograma = true" />
 
 </div>
+
 <div class="q-pa-md row items-center q-gutter-md">
 
 <q-card class="my-card" style="width: 100%; text-align: center;">
@@ -50,6 +51,7 @@
 
 </q-card-section>
 </q-card>
+
 <!--
 <q-page-sticky position="bottom-right">
   <q-btn padding="sm" fab icon="play_arrow" color="accent" style="margin-right: 10px; margin-bottom: 5px;" />
@@ -75,19 +77,21 @@
           </q-bar>
 
           <q-card-section>
-            <div class="regras2">
-              <p class="pri-bar">Leitura</p>
-              <p class="seg-bar">Debate</p>
+            <div class="cronog2">
+              <p class="pri-bar2">Leitura</p>
+              <p class="seg-bar2">Debate</p>
             </div>
           </q-card-section>
 
           <q-card-section class="q-pt-none">
-             <Calendar
-              :columns="$screens({ lg: 2 }, 1)"
-              :attributes="attributes"
-              :min-date='new Date(2018, 0, 1)'
-              :max-date='new Date(2018, 0, 15)'
-            />
+             <div class="row flex-center">
+               <Calendar
+                :columns="$screens({ lg: 2 }, 1)"
+                :attributes="attributes"
+                :min-date='new Date(2018, 0, 1)'
+                :max-date='new Date(2018, 0, 15)'
+              />
+             </div>
           </q-card-section>
 
         </q-card>
@@ -134,17 +138,17 @@ export default {
   color: #8e8e8e;
   margin-top: -11px;
 }
-.regras2 {
+.cronog2 {
   padding: 3px 12px;
   margin-bottom: 7px;
 }
-.regras2 p {
+.cronog2 p {
   color: #888888;
   margin: 0;
   font-family: poppins;
-  font-size: 13px;
+  font-size: 14px;
 }
-.pri-bar::after{
+.pri-bar2::after{
   content: '';
   display: block;
   height: 4px;
@@ -154,7 +158,7 @@ export default {
   margin-right: 7px;
   margin-top: 6px;
 }
-.seg-bar::after{
+.seg-bar2::after{
   content: '';
   display: block;
   height: 4px;
