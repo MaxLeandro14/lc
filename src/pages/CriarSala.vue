@@ -217,7 +217,7 @@ export default {
   color: rgb(86, 86, 86);
   font-size: 16px;
   background: #fbfbfb;
-  padding: 8px;
+  padding: 8px 0px 20px 0px;
   border-radius: 7px;
 }
 .date-blue {

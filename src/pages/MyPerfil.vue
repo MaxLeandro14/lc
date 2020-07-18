@@ -24,6 +24,16 @@ Max Leandro Silva
       </q-item>
 
       <q-item clickable v-ripple>
+        <q-item-section avatar style="min-width: 40px; color: rgb(171, 168, 168);">
+          <q-icon name="error" />
+        </q-item-section>
+
+        <q-item-section>
+          Informações
+        </q-item-section>
+      </q-item>
+
+      <q-item clickable v-ripple>
         <q-item-section avatar style="min-width: 40px; color: rgb(0, 209, 90);">
           <q-icon name="share" />
         </q-item-section>
@@ -87,23 +97,27 @@ Max Leandro Silva
       />
 
 <div style="margin-top: 14px"></div>
-<div class="q-pa-md q-gutter-sm">
-<div class="row">
+<div class="q-pa-md q-gutter-sm" style="margin-bottom: 20px;">
+      <div class="row">
 
         <div class="col-4 bloco4" style="text-align: center">
           <img src="~assets/remove/ebook.jpg">
+          <p><span class="color-cinza">Cod: </span>32344</p>
         </div>
 
         <div class="col-4 bloco4" style="text-align: center">
           <img src="~assets/remove/ebook.jpg">
+          <p><span class="color-cinza">Cod: </span>32344</p>
         </div>
 
         <div class="col-4 bloco4" style="text-align: center">
           <img src="~assets/remove/ebook.jpg">
+          <p><span class="color-cinza">Cod: </span>32344</p>
         </div>
 
          <div class="col-4 bloco4" style="text-align: center">
           <img src="~assets/remove/ebook.jpg">
+          <p><span class="color-cinza">Cod: </span>32344</p>
         </div>
 
     </div>
@@ -145,7 +159,13 @@ p {
 .bloco4 img {
   max-width: 74px;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.1);
-  margin: 4px;
 }
-
+.color-cinza{
+  color: #9b9b9b;
+}
+.bloco4 p {
+  font-size: 13px;
+  color: #5b5b5b;
+  padding: 0px 0px 20px 0px;
+}
 </style>

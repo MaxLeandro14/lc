@@ -22,9 +22,11 @@
         </q-btn>
       </div>
       <div class="col-2 text-center">
-        <q-avatar>
-          <img src="~assets/remove/Max.jpg">
-        </q-avatar>
+        <router-link :to="{ name: 'myPerfil'}" >
+          <q-avatar>
+            <img src="~assets/remove/Max.jpg">
+          </q-avatar>
+        </router-link>
       </div>
     </div>
 
