@@ -31,6 +31,9 @@ const routes = [
     path: '/anotacao', name: 'anotacao', component: () => import('pages/Anotacao.vue')
   },
   {
+    path: '/criarsala', name: 'criarsala', component: () => import('pages/CriarSala.vue')
+  },
+  {
     path: '*',
     component: () => import('pages/Error404.vue')
   }

@@ -64,7 +64,9 @@
               </q-item-section>
 
               <q-item-section>
-                Criar sala de leitura
+                <router-link :to="{ name: 'criarsala'}" >
+                  Criar sala de leitura
+                </router-link>
               </q-item-section>
             </q-item>
 
