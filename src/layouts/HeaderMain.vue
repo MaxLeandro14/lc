@@ -56,7 +56,9 @@
               </q-item-section>
 
               <q-item-section>
-                 Anotação
+                <router-link :to="{ name: 'anotacao'}" >
+                  Anotação
+                </router-link>
               </q-item-section>
             </q-item>
 
@@ -88,7 +90,9 @@
               </q-item-section>
 
               <q-item-section>
-                Suspender conta
+                <router-link :to="{ name: 'conta'}" >
+                  Suspender conta
+                </router-link>
               </q-item-section>
             </q-item>
 

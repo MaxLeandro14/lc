@@ -12,7 +12,9 @@ const routes = [
       { path: '/myPerfil', name: 'myPerfil', component: () => import('pages/MyPerfil.vue') },
       { path: '/todasSalas', name: 'todasSalas', component: () => import('pages/TodasSalas.vue') },
       { path: '/seguindo', name: 'seguindo', component: () => import('pages/Seguindo.vue') },
-      { path: '/seguidores', name: 'seguidores', component: () => import('pages/Seguidores.vue') }
+      { path: '/seguidores', name: 'seguidores', component: () => import('pages/Seguidores.vue') },
+      { path: '/conta', name: 'conta', component: () => import('pages/Conta.vue') },
+      { path: '/criarsala', name: 'criarsala', component: () => import('pages/CriarSala.vue') }
     ]
   },
   {
@@ -29,9 +31,6 @@ const routes = [
   },
   {
     path: '/anotacao', name: 'anotacao', component: () => import('pages/Anotacao.vue')
-  },
-  {
-    path: '/criarsala', name: 'criarsala', component: () => import('pages/CriarSala.vue')
   },
   {
     path: '*',
