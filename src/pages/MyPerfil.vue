@@ -58,7 +58,7 @@ Max Leandro Silva
 
 <q-avatar size="72px" >
 <img src="~assets/remove/Max.jpg" style="border: 4px solid #fff; margin-bottom: 12px;">
-<q-badge floating lign="bottom" style="bottom: 3px; top: 45px; !important; border-radius: 50%; color: rgb(255, 255, 255); background: #00ca57;">+</q-badge>
+<q-badge floating lign="bottom" style="bottom: 3px; top: 45px; !important; height: 20px; border-radius: 50%; color: rgb(255, 255, 255); background: #00ca57;">+</q-badge>
 
 </q-avatar>
 <p><q-icon name="star_rate
@@ -159,9 +159,6 @@ p {
 .bloco4 img {
   max-width: 74px;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.1);
-}
-.color-cinza{
-  color: #9b9b9b;
 }
 .bloco4 p {
   font-size: 13px;
