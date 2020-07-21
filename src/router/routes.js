@@ -30,6 +30,12 @@ const routes = [
     path: '/perfil', name: 'perfil', component: () => import('pages/Perfil.vue')
   },
   {
+    path: '/editarInfor', name: 'editarInfor', component: () => import('pages/EditarInfor.vue')
+  },
+  {
+    path: '/editarFoto', name: 'editarFoto', component: () => import('pages/EditarFoto.vue')
+  },
+  {
     path: '/anotacao', name: 'anotacao', component: () => import('pages/Anotacao.vue')
   },
   {

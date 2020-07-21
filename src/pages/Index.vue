@@ -66,7 +66,7 @@
 
     <!-- -->
     <q-dialog v-model="codSala" seamless position="bottom">
-      <q-card style="width: 100%; height: 30vh;">
+      <q-card style="width: 100%; height: 40vh;">
         <q-card-section class="row items-center no-wrap">
 
             <div class="col-12">

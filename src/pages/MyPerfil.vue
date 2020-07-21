@@ -18,11 +18,12 @@ Max Leandro Silva
 
 <div class="col" style="text-align: center">
 
-<q-avatar size="72px" >
-<img src="~assets/remove/Max.jpg" style="border: 4px solid #fff; margin-bottom: 12px;">
-<q-badge floating lign="bottom" style="bottom: 3px; top: 45px; !important; height: 20px; border-radius: 50%; color: rgb(255, 255, 255); background: #00ca57;">+</q-badge>
-
-</q-avatar>
+<router-link :to="{ name: 'editarFoto'}" >
+  <q-avatar size="72px" >
+  <img src="~assets/remove/Max.jpg" style="border: 4px solid #fff; margin-bottom: 12px;">
+  <q-badge floating lign="bottom" style="bottom: 3px; top: 45px; !important; height: 20px; border-radius: 50%; color: rgb(255, 255, 255); background: #00ca57;">+</q-badge>
+  </q-avatar>
+</router-link>
 <p><q-icon name="star_rate
 " /> 4.4</p>
 </div>
@@ -34,7 +35,7 @@ Max Leandro Silva
 <p class="primary-font ext-subtitle1">Seguindo: <span class="text-bold">221</span></p>
 -->
 <p class="primary-font ext-subtitle1"><span style="color: #999999">Codigo: 221</span></p>
-<p><button class="btn-editar">Editar</button></p>
+<p><router-link class="btn-editar" :to="{ name: 'editarInfor'}" >Editar</router-link></p>
 
 </div>
 
@@ -249,6 +250,8 @@ p {
 }
 .btn-editar{
   width: 115px;
+  display: block;
+  text-align: center;
   font-size: 11px;
   text-transform: capitalize;
   border: 1px solid #00d15a;

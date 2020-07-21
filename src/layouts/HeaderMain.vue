@@ -84,6 +84,18 @@
               </q-item-section>
             </q-item>
 
+            <q-item clickable v-ripple>
+              <q-item-section avatar style="min-width: 40px; color: rgb(128, 128, 128);">
+                <q-icon name="account_circle" />
+              </q-item-section>
+
+              <q-item-section>
+
+                  Configurar conta
+
+              </q-item-section>
+            </q-item>
+
              <q-item clickable v-ripple>
               <q-item-section avatar style="min-width: 40px; color: rgb(128, 128, 128);">
                 <q-icon name="person_add_disabled" />
