@@ -34,19 +34,6 @@ Max Leandro Silva
 <p class="bio">sssasadsfdsfssdgcdsfs daff fsdfsdga fgghga gdfhhah hgshsfhh</p>
 </div>
 
-<q-btn-toggle
-        v-model="busca"
-        spread
-        no-caps
-        style="border-radius: 0px"
-        toggle-color="grey-7"
-        text-color="black"
-        :options="[
-          {label: 'Atual', value: 'one'},
-          {label: 'Fechado', value: 'two'}
-        ]"
-      />
-
    <!-- -->
     <q-dialog v-model="contato" seamless position="bottom">
       <q-card style="width: 100%; height: 45vh;">
@@ -180,32 +167,23 @@ Max Leandro Silva
 
     </div>
 
-            <!-- <div class="col-12">
-
-              <q-field outlined hint="Codigo da sala" dense="dense" readonly>
-
-                <template v-slot:control>
-                  <div class="self-center full-width no-outline">
-                    <q-input color="green" bg-color="white" filled v-model="codSalaText" />
-                  </div>
-                </template>
-
-                <template v-slot:append>
-                  <q-btn round dense flat icon="send" style="color: #00ca57; margin-top: 7px;" />
-                </template>
-
-                <template v-slot:after>
-                  <q-btn flat round icon="close" v-close-popup style="color: rgb(212, 98, 75); margin-top: 5px;" />
-                </template>
-
-              </q-field>
-
-          </div>-->
-
         </q-card-section>
       </q-card>
     </q-dialog>
     <!-- -->
+
+<q-btn-toggle
+        v-model="busca"
+        spread
+        no-caps
+        style="border-radius: 0px"
+        toggle-color="grey-7"
+        text-color="black"
+        :options="[
+          {label: 'Atual', value: 'one'},
+          {label: 'Fechado', value: 'two'}
+        ]"
+      />
 
 <div style="margin-top: 14px"></div>
 
@@ -283,13 +261,5 @@ p {
   font-size: 13px;
   color: #5b5b5b;
   padding: 0px 0px 20px 0px;
-}
-.fechar-contato {
-  display: flex;
-  justify-content: center;
-  margin: 0px 0px 8px 0px;
-  border: 1px solid #bbb;
-  color: #6b6b6b;
-  font-size: 20px;
 }
 </style>
