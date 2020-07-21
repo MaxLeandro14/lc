@@ -71,113 +71,57 @@
 
 </div>
 
-<div class="row emoji-book flex-center">
-
-  <div class="row">
+<p class="para-emoji">O que achou da leitura?</p>
+<div class="row flex-center emoji-book ">
 
     <label>
       <input type="radio" name="emoji" value="feliz" checked>
 
-      <svg enable-background="new 0 0 30 30" version="1.1" viewBox="0 0 30 30" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-          <circle class="st0" cx="15" cy="15.2" r="14"/>
-        <path class="st1" d="m5.6 16.5c0.5 4.7 4.5 8.4 9.4 8.4s8.9-3.7 9.4-8.4h-18.8z"/>
-        <path class="st2" d="m8.5 22.3c1.7 1.6 4 2.6 6.5 2.6 2.4 0 4.6-0.9 6.3-2.4l-0.1-0.2c-6.3-3.1-12.6-0.1-12.7 0z"/>
-            <path class="st3" d="m7.5 14c-0.2 0-0.4-0.1-0.5-0.2-0.2-0.3-0.2-0.6 0.1-0.8l2-1.6-2.1-1.2c-0.2-0.2-0.3-0.6-0.1-0.9 0.1-0.2 0.5-0.3 0.8-0.2l2.8 1.7c0.2 0.1 0.3 0.3 0.3 0.5s-0.1 0.4-0.2 0.5l-2.7 2.1c-0.1 0.1-0.3 0.1-0.4 0.1z"/>
-            <path class="st3" d="m22.6 14c-0.1 0-0.3 0-0.4-0.1l-2.7-2.1c-0.2-0.1-0.2-0.3-0.2-0.5s0.1-0.4 0.3-0.5l2.8-1.7c0.3-0.2 0.6-0.1 0.8 0.2s0.1 0.6-0.2 0.8l-2.1 1.2 2 1.6c0.3 0.2 0.3 0.6 0.1 0.8-0.1 0.2-0.2 0.3-0.4 0.3z"/>
-      </svg>
+      <svg viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12,2C6.47,2 2,6.47 2,12C2,17.53 6.47,22 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2M8.88,7.82L11,9.94L9.94,11L8.88,9.94L7.82,11L6.76,9.94L8.88,7.82M12,17.5C9.67,17.5 7.69,16.04 6.89,14H17.11C16.31,16.04 14.33,17.5 12,17.5M16.18,11L15.12,9.94L14.06,11L13,9.94L15.12,7.82L17.24,9.94L16.18,11Z" />
+    </svg>
 
     </label>
 
      <label>
-      <input type="radio" name="emoji" value="amando" checked>
+      <input type="radio" name="emoji" value="rindo">
 
-      <svg enable-background="new 0 0 30 30" version="1.1" viewBox="0 0 30 30" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-        <circle class="st0" cx="15" cy="15" r="13.8"/>
-        <path class="st0" d="M9.1,17.8c0.3,3,2.8,5.2,5.9,5.2c3,0,5.5-2.3,5.9-5.2H9.1z"/>
-        <path class="st1" d="m10.9 21.5c1.1 1 2.5 1.6 4.1 1.6 1.5 0 2.9-0.6 3.9-1.5l-0.1-0.1c-3.9-2-7.8-0.1-7.9 0z"/>
-        <path class="st1" d="m13.1 11c0-1.3-0.9-2.5-2.3-2.5-1.1 0-1.7 0.8-2 1.5-0.2-0.7-0.8-1.5-1.9-1.5-1.4 0-2.3 1.2-2.3 2.4 0 0.3 0 3.1 4.3 5.4 4.2-2.2 4.2-5 4.2-5.3z"/>
-        <path class="st1" d="m25.5 11c0-1.3-0.9-2.5-2.3-2.5-1.1 0-1.7 0.8-2 1.5-0.2-0.7-0.9-1.5-2-1.5-1.4 0-2.3 1.2-2.3 2.4 0 0.3 0 3.1 4.3 5.4 4.3-2.2 4.3-5 4.3-5.3z"/>
-      </svg>
+      <svg viewBox="0 0 24 24">
+        <path fill="currentColor" d="M15.07 8.93V4.93A4.06 4.06 0 0 1 15.73 2.72A10 10 0 0 0 2.73 15.72A4.06 4.06 0 0 1 4.94 15.06H8.94V19.06A4.06 4.06 0 0 1 8.28 21.27A10 10 0 0 0 21.28 8.27A4.06 4.06 0 0 1 19.07 8.93M11 6H12.5V7.5H14V9H11M7.5 14V12.5H6V11H9V14M15.89 15.9A5.5 5.5 0 0 1 9.8 17L17 9.8A5.5 5.5 0 0 1 15.89 15.89M4.89 21.08A2 2 0 0 1 2.89 19.08A2 2 0 0 1 4.89 17.08H6.89V19.08A2 2 0 0 1 4.93 21.07M19.07 2.93A2 2 0 0 1 21.07 4.93A2 2 0 0 1 19.07 6.93H17.07V4.93A2 2 0 0 1 19.07 2.93Z" />
+    </svg>
 
     </label>
 
     <label>
-      <input type="radio" name="emoji" value="chorando" checked>
+      <input type="radio" name="emoji" value="chorando">
 
-      <svg enable-background="new 0 0 30 30" version="1.1" viewBox="0 0 30 30" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-        <circle class="st0" cx="15.1" cy="15.3" r="13.8"/>
-        <ellipse class="st0" cx="15.1" cy="18.6" rx="2.5" ry="4.2"/>
-        <path class="st1" d="m17.2 20.8c-1.8-1-3.3-0.4-4.1 0.1 0.4 1.1 1.2 1.8 2 1.8 0.8 0.1 1.6-0.7 2.1-1.9z"/>
-          <path class="st1" d="M10.8,15l-3.6,2l0.1,10c1.1,0.6,2.3,1.1,3.5,1.5V15z"/>
-          <path class="st1" d="M19.3,15l3.6,2l-0.1,10c-1.1,0.6-2.3,1.1-3.5,1.5V15z"/>
-            <path class="st1" d="m7.6 15.3c-0.2 0-0.3-0.1-0.5-0.2-0.1-0.3-0.1-0.7 0.2-0.9l2-1.5-2.1-1.2c-0.3-0.2-0.4-0.5-0.2-0.8s0.5-0.4 0.8-0.2l2.8 1.6c0.2 0.1 0.3 0.3 0.3 0.5s-0.1 0.4-0.2 0.5l-2.7 2c-0.1 0.1-0.3 0.2-0.4 0.2z"/>
-            <path class="st1" d="m22.5 15.3c-0.1 0-0.3 0-0.4-0.1l-2.7-2.1c-0.2-0.1-0.2-0.3-0.2-0.5s0.1-0.4 0.3-0.5l2.8-1.6c0.3-0.2 0.6-0.1 0.8 0.2s0.1 0.6-0.2 0.8l-2.1 1.2 2 1.5c0.3 0.2 0.3 0.6 0.1 0.8-0.1 0.2-0.2 0.3-0.4 0.3z"/>
-      </svg>
+      <svg viewBox="0 0 24 24">
+        <path fill="currentColor" d="M5.14,17.57C5.14,16.5 6.32,14.5 7.57,12.81C8.82,14.5 10,16.5 10,17.57A2.43,2.43 0 0,1 7.57,20C6.23,20 5.14,18.91 5.14,17.57M22,12A10,10 0 0,1 12,22C11.08,22 10.18,21.86 9.33,21.63C10.9,20.95 12,19.39 12,17.57C12,17.12 11.89,16.6 11.69,16C11.79,16 11.89,16 12,16C13.25,16 14.32,16.5 14.77,17.23L16.19,15.81C15.29,14.72 13.75,14 12,14C11.59,14 11.19,14.04 10.81,14.12C10.38,13.36 9.85,12.53 9.19,11.63L8.71,11C9.42,10.87 10,10.23 10,9.5C10,8.7 9.3,8 8.5,8C7.7,8 7,8.7 7,9.5C7,9.69 7.04,9.87 7.11,10.04L5.96,11.63C4.4,13.75 3.5,15.5 3.23,16.81C2.45,15.38 2,13.74 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M17,9.5C17,8.7 16.3,8 15.5,8C14.7,8 14,8.7 14,9.5C14,10.3 14.7,11 15.5,11C16.3,11 17,10.3 17,9.5Z" />
+    </svg>
 
     </label>
 
     <label>
-      <input type="radio" name="emoji" value="irrelevante" checked>
+      <input type="radio" name="emoji" value="irrelevante">
 
-      <svg enable-background="new 0 0 30 30" version="1.1" viewBox="0 0 30 30" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-          <circle class="st0" cx="15" cy="15" r="13.9"/>
-        <circle class="st0" cx="8.8" cy="12.5" r="3.2"/>
-        <path class="st1" d="m11 10.2c-0.6-0.6-1.4-0.9-2.2-0.9-0.6 0-1.1 0.2-1.6 0.4-0.1 0.2-0.2 0.3-0.2 0.4-0.1 0.7 0.8 1.3 1.9 1.4s2.1-0.3 2.1-1c0.1-0.1 0-0.2 0-0.3z"/>
-          <circle class="st0" cx="21.2" cy="12.5" r="3.2"/>
-          <path class="st1" d="m23.4 10.2c-0.6-0.6-1.4-0.9-2.2-0.9-0.6 0-1.1 0.2-1.6 0.4-0.1 0.1-0.2 0.3-0.2 0.4-0.1 0.7 0.8 1.3 1.9 1.4s2.1-0.3 2.1-1c0.1-0.1 0.1-0.2 0-0.3z"/>
-        <path class="st1" d="m20.2 18.2c-0.7-0.7-1.6-1.1-2.6-1.4-1-0.2-2-0.2-3-0.1-1 0.2-1.9 0.6-2.7 1.1-0.9 0.6-1.6 1.3-2 2.1-0.1 0.1-0.1 0.3 0 0.4s0.1 0.1 0.2 0.1h0.1l0.3-0.2c0.7-0.4 1.4-0.7 2.1-1 0.8-0.3 1.6-0.5 2.3-0.7 0.8-0.2 1.6-0.2 2.4-0.2 0.7 0 1.5 0.1 2.5 0.3 0.1 0 0.3 0 0.3-0.2 0.2 0 0.2-0.1 0.1-0.2z"/>
-      </svg>
-
-    </label>
-
-    <label>
-      <input type="radio" name="emoji" value="surpreso" checked>
-    <svg enable-background="new 0 0 30 30" version="1.1" viewBox="0 0 30 30" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-        <circle class="st0" cx="15" cy="15.1" r="13.6"/>
-      <ellipse class="st0" cx="15" cy="19.4" rx="3.6" ry="6.1"/>
-      <path class="st1" d="m18.1 22.7c-2.6-1.4-4.8-0.6-6 0.2 0.7 1.6 1.7 2.7 3 2.7 1.2-0.1 2.3-1.2 3-2.9z"/>
-          <ellipse class="st1" transform="matrix(.8977 .4405 -.4405 .8977 6.0927 -2.5698)" cx="8.6" cy="11.8" rx="3.3" ry="4.7"/>
-          <ellipse class="st1" transform="matrix(-.8977 .4405 -.4405 -.8977 45.862 13.03)" cx="21.4" cy="11.8" rx="3.3" ry="4.7"/>
-          <path class="st1" d="m22.6 7.8c-0.2 0-0.4-0.2-0.4-0.4v-5c0-0.2 0.2-0.4 0.4-0.4 0.3 0 0.4 0.2 0.4 0.4v5c0 0.2-0.1 0.4-0.4 0.4z"/>
-          <path class="st1" d="m24.5 7c-0.2 0-0.4-0.2-0.4-0.4v-3.6c0-0.2 0.2-0.4 0.4-0.4s0.4 0.2 0.4 0.4v3.6c0 0.2-0.2 0.4-0.4 0.4z"/>
-          <path class="st1" d="m26.4 9.6c-0.2 0-0.4-0.2-0.4-0.4v-5.3c0-0.2 0.2-0.4 0.4-0.4s0.4 0.2 0.4 0.4v5.4c0 0.2-0.2 0.3-0.4 0.3z"/>
+      <svg viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 2A10 10 0 1 0 22 12A10 10 0 0 0 12 2M8.5 8A1.5 1.5 0 1 1 7 9.5A1.54 1.54 0 0 1 8.5 8M17 16H13A4 4 0 0 0 9.53 18L7.8 17A6 6 0 0 1 13 14H17M15.5 11A1.5 1.5 0 1 1 17 9.5A1.54 1.54 0 0 1 15.5 11Z" />
     </svg>
 
     </label>
 
       <label>
-      <input type="radio" name="emoji" value="raiva" checked>
+      <input type="radio" name="emoji" value="raiva">
 
-    <svg enable-background="new 0 0 30 30" version="1.1" viewBox="0 0 30 30" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-        <circle class="st0" cx="15" cy="15" r="13.9"/>
-          <ellipse class="st1" cx="9.9" cy="12.4" rx="1" ry="1.7"/>
-          <ellipse class="st1" cx="20.1" cy="12.4" rx="1" ry="1.7"/>
-      <path class="st1" d="m20.7 21.2c0.4 0.3 0.9 0 0.7-0.5-1-2.6-3.5-4.4-6.5-4.4-2.9 0-5.3 1.7-6.4 4.2-0.1 0.5 0.5 0.9 0.8 0.5 2-1.9 6.4-4.7 11.4 0.2z"/>
-        <rect class="st1" transform="matrix(.7071 -.7071 .7071 .7071 -3.1703 10.225)" x="10.1" y="6.7" width="1.3" height="4.4"/>
-        <rect class="st1" transform="matrix(.7071 .7071 -.7071 .7071 11.957 -10.989)" x="18.6" y="6.7" width="1.3" height="4.4"/>
+    <svg viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,9.5V8L10,9.5C10,10.3 9.3,11 8.5,11C7.7,11 7,10.3 7,9.5M14.77,17.23C14.32,16.5 13.25,16 12,16C10.75,16 9.68,16.5 9.23,17.23L7.81,15.81C8.71,14.72 10.25,14 12,14C13.75,14 15.29,14.72 16.19,15.81L14.77,17.23M17,9.5C17,10.3 16.3,11 15.5,11C14.7,11 14,10.3 14,9.5L17,8V9.5Z" />
     </svg>
 
     </label>
 
-          <label>
-      <input type="radio" name="emoji" value="triste" checked>
-
-<svg enable-background="new 0 0 25 25" version="1.1" viewBox="0 0 25 25" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-  <circle class="st0" cx="12.5" cy="12.5" r="11.1"/>
-      <ellipse class="st1" cx="8.4" cy="9.8" rx=".8" ry="1.4"/>
-      <ellipse class="st1" cx="16.6" cy="9.8" rx=".8" ry="1.4"/>
-  <path class="st1" d="m19.1 7.5c-0.1 0-0.2-0.1-0.4-0.1-0.3-0.1-0.5-0.1-0.7-0.2-0.3-0.1-0.6-0.2-0.9-0.4s-0.6-0.3-0.8-0.6c-0.3-0.2-0.6-0.5-0.8-0.7h-0.1c0 0.4 0.2 0.8 0.4 1.1 0.2 0.4 0.5 0.6 0.9 0.8s0.7 0.3 1.1 0.3c0.5 0.1 0.9 0 1.3-0.2z"/>
-  <path class="st1" d="m5.9 7.5c0.1 0 0.2-0.1 0.4-0.1 0.2-0.1 0.5-0.2 0.7-0.3 0.3-0.1 0.6-0.2 0.9-0.4s0.6-0.3 0.8-0.6c0.4-0.1 0.6-0.4 0.9-0.6h0.1c0 0.4-0.2 0.8-0.4 1.1-0.3 0.4-0.6 0.6-1 0.8s-0.8 0.3-1.2 0.4c-0.4 0-0.8-0.1-1.2-0.3z"/>
-<path class="st1" d="m8.3 18.2c-0.1 0-0.2-0.1-0.2-0.2 0-0.5 0.1-1 0.4-1.5 0.2-0.5 0.6-0.9 1-1.2 0.8-0.7 1.9-1.1 3-1.1s2.2 0.4 3 1.1 1.4 1.8 1.4 2.7c0 0.1-0.1 0.3-0.2 0.2-0.1 0-0.2-0.2-0.3-0.2-0.1-0.1-0.2-0.2-0.4-0.3-0.3-0.2-0.5-0.3-0.8-0.5-1-0.5-2.1-0.8-3.3-0.7-0.7 0.1-1.4 0.3-2.1 0.6-0.4 0.2-0.8 0.4-1.1 0.7 0 0.1-0.2 0.3-0.4 0.4z"/>
-</svg>
-
-    </label>
-
-  </div>
-
 </div>
 
-<q-btn style="color: rgb(255, 255, 255); background: #4caf50;" class="full-width" label="Salvar" type="submit" />
+<q-btn style="color: rgb(255, 255, 255); background: #4caf50; margin-top: 20px;" class="full-width" label="Salvar" type="submit" />
 
 </q-form>
 
@@ -263,7 +207,7 @@ export default {
   },
   data () {
     return {
-      persistent: true,
+      persistent: false,
       value: 81,
       fab2: false,
       dense: false,
@@ -332,36 +276,22 @@ export default {
   margin-top: 6px;
 }
 .emoji-book svg{
-  width: 38px;
-  margin: 3px -1px;
+  width: 36px;
+  height: 36px;
+  color: #38a169;
+  margin: 7px 6px;
 }
 .emoji-book input[type="radio"] {
   visibility: hidden;
+  display: none;
 }
-.emoji-book input[type="radio"]:checked+svg .st0 {
-  fill: #5D6AE2;
-  stroke: #5D6AE2;
+.emoji-book input[type="radio"]:checked+svg {
+  color: #9c27b0;
 }
-.emoji-book input[type="radio"]:checked+svg .st1 {
-  fill: #ffffff;
-  stroke: #ffffff;
+.para-emoji {
+  text-align: left;
+  margin: 20px 0px 5px 0px;
+  color: #757373;
+  font-size: 16px;
 }
-.emoji-book input[type="radio"]:checked+svg .st2 {
-  fill: #5d6ae2;
-  stroke: #ffffff;
-}
-.emoji-book input[type="radio"]:checked+svg .st3 {
-  fill: #ffffff;
-  stroke: #ffffff;
-}
-.emoji-book .st1 {
-    fill: #ffffff;
-    stroke: #5D6AE2;
-    stroke-width:2;
-}
-path.st3 {
-    fill: #5d6ae2;
-    stroke: #5d6ae2;
-}
-.emoji-book  .st0{fill:#fff;stroke:#5D6AE2;stroke-width:2;stroke-miterlimit:10;}
 </style>
