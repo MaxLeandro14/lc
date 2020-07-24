@@ -43,8 +43,8 @@ export default {
 </script>
 <style>
 .salas img {
-max-width: 70px;
   margin: 5px 14px 5px 0;
+  max-width: 85px;
 }
 .salas p {
 margin: 0;

@@ -10,7 +10,7 @@ Seguidores
       transition-show="jump-down"
       transition-hide="jump-up"
     >
-    <q-list style="min-width: 100px">
+    <q-list style="min-width: 130px">
 
       <q-item clickable v-ripple>
         <q-item-section avatar style="min-width: 40px; color: rgb(171, 168, 168);">
@@ -80,9 +80,7 @@ export default {
 .box-seguid {
 width: 100%;
   color: #676565;
-  background: #f5f5f5;
   font-size: 12px;
-  border-radius: 50px 20px 20px 50px;
   margin: 10px 0px;
 }
 .linear-nome2 {

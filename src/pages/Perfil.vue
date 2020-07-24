@@ -249,9 +249,11 @@ p {
   border: none;
   color: #fff;
   border-radius: 5px;
+  margin: 7px 0px;
 }
 .bloco3 img {
-  max-width: 74px;
+  max-width: 77px;
+  margin: 8px 0px;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.1);
 }
 .color-cinza{

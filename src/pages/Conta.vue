@@ -12,7 +12,7 @@ Conta
   <q-card class="my-card">
 <q-card-section>
 
-<p>Ao clicar em suspender, concordo que:</p>
+<p style="font-size: 16px;">Ao clicar em suspender, concordo que:</p>
 
     <q-list>
       <q-item v-ripple>
@@ -65,7 +65,7 @@ Conta
 <q-dialog v-model="confirm" persistent>
       <q-card>
         <q-card-section class="row items-center">
-          <span class="q-ml-sm">Deseja realmente suspender?</span>
+          <span class="q-ml-sm" style="padding: 32px 0; font-size: 17px;">Deseja realmente suspender?</span>
         </q-card-section>
 
         <q-card-actions align="right">

@@ -19,7 +19,7 @@ Max Leandro Silva
 <div class="col" style="text-align: center">
 
 <router-link :to="{ name: 'editarFoto'}" >
-  <q-avatar size="72px" >
+  <q-avatar size="77px" >
   <img src="~assets/remove/Max.jpg" style="border: 4px solid #fff; margin-bottom: 12px;">
   <q-badge floating lign="bottom" style="bottom: 3px; top: 45px; !important; height: 20px; border-radius: 50%; color: rgb(255, 255, 255); background: #00ca57;">+</q-badge>
   </q-avatar>
@@ -249,7 +249,7 @@ p {
   padding: 0;
 }
 .btn-editar{
-  width: 115px;
+  width: 122px;
   display: block;
   text-align: center;
   font-size: 11px;

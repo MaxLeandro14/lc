@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="q-pa-md" style="max-width: 350px">
+    <div class="q-pa-md">
+      <div style="text-align: center; width: 100%;">
     <q-list padding bordered class="rounded-borders">
 
       <q-expansion-item
@@ -10,6 +11,7 @@
         icon="campaign"
         label="Debate"
         header-class="text-purple"
+        style="text-align: left;"
       >
         <q-card>
           <q-card-section>
@@ -21,6 +23,7 @@
         </q-card>
       </q-expansion-item>
     </q-list>
+    </div>
   </div>
     <div class="row  flex-center">
 
@@ -120,8 +123,10 @@
 
     </label>
 
-    <div style="color: #9c27b0; font-size: 17px; height: 23px;">{{emoji}}</div>
+</div>
 
+<div class="row flex-center">
+  <div style="color: #9c27b0; font-size: 17px; height: 23px;">{{emoji}}</div>
 </div>
 
 <q-btn style="color: rgb(255, 255, 255); background: #4caf50; margin-top: 20px;" class="full-width" label="Salvar" type="submit" />

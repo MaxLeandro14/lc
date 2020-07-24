@@ -13,7 +13,7 @@
       transition-show="jump-down"
       transition-hide="jump-up"
     >
-    <q-list style="min-width: 100px">
+    <q-list style="min-width: 140px">
       <q-item clickable>
           <q-item-section>Links e Downloads</q-item-section>
       </q-item>
