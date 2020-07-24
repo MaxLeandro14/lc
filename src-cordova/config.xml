@@ -8,6 +8,7 @@
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
+    <preference name="ShowSplashScreenSpinner" value="false" />
     <splash src="screen/anyany.png" />
     <preference name="StatusBarBackgroundColor" value="#eceaea" />
     <preference name="StatusBarStyle" value="default" />
