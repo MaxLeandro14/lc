@@ -55,12 +55,14 @@
       <!---->
       <div>
       <p class="title-data">Informe a data de <strong class="date-blue">início</strong> e <strong class="date-blue">fim</strong> da sala</p>
-          <DatePicker
+          <div class="row">
+            <DatePicker
           :columns="$screens({ lg: 2 }, 1)"
           mode='range'
           v-model='range'
           is-inline
           />
+          </div>
 
         </div>
       <!---->
@@ -77,7 +79,7 @@
       <div>
 
         <p class="title-data">Informe os dias de <strong class="date-red">debate</strong></p>
-
+        <div class="row">
           <DatePicker
           :columns="$screens({ lg: 2 }, 1)"
           v-model="debates"
@@ -85,6 +87,7 @@
           color="red"
           is-inline
           />
+        </div>
         </div>
       <!---->
       </q-step>
@@ -217,7 +220,7 @@ export default {
   color: rgb(86, 86, 86);
   font-size: 16px;
   background: #fbfbfb;
-  padding: 8px 0px 20px 0px;
+  padding: 8px 3px 20px 7px;
   border-radius: 7px;
 }
 .date-blue {
