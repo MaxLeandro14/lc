@@ -7,8 +7,8 @@ Editar foto
 </q-toolbar-title>
 
 </q-toolbar>
-    <div class="q-pa-md q-gutter-sm">
-      <q-avatar size="72px" >
+    <div class="row flex-center">
+      <q-avatar size="78px" style="margin-top: 20px;" >
       <img src="~assets/remove/Max.jpg" style="border: 4px solid #fff; margin-bottom: 12px;">
       </q-avatar>
     </div>

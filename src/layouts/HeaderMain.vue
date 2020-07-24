@@ -52,17 +52,17 @@
 
              <q-item clickable v-ripple>
               <q-item-section avatar style="min-width: 40px; color: rgb(128, 128, 128);">
-                <q-icon name="list_alt" />
+                <q-icon name="account_circle" />
               </q-item-section>
 
               <q-item-section>
-                <router-link :to="{ name: 'anotacao'}" >
-                  Anotação
+                <router-link :to="{ name: 'alterarDados'}" >
+                  Alterar dados da conta
                 </router-link>
               </q-item-section>
             </q-item>
 
-              <q-item clickable v-ripple>
+            <q-item clickable v-ripple>
               <q-item-section avatar style="min-width: 40px; color: rgb(128, 128, 128);">
                 <q-icon name="sensor_door" />
               </q-item-section>
@@ -74,6 +74,18 @@
               </q-item-section>
             </q-item>
 
+             <q-item clickable v-ripple>
+              <q-item-section avatar style="min-width: 40px; color: rgb(128, 128, 128);">
+                <q-icon name="list_alt" />
+              </q-item-section>
+
+              <q-item-section>
+                <router-link :to="{ name: 'anotacao'}" >
+                  Anotação
+                </router-link>
+              </q-item-section>
+            </q-item>
+
             <q-item clickable v-ripple>
               <q-item-section avatar style="min-width: 40px; color: rgb(128, 128, 128);">
                 <q-icon name="star" />
@@ -81,18 +93,6 @@
 
               <q-item-section>
                 Avaliar
-              </q-item-section>
-            </q-item>
-
-            <q-item clickable v-ripple>
-              <q-item-section avatar style="min-width: 40px; color: rgb(128, 128, 128);">
-                <q-icon name="account_circle" />
-              </q-item-section>
-
-              <q-item-section>
-
-                  Configurar conta
-
               </q-item-section>
             </q-item>
 
@@ -139,7 +139,6 @@
 
   </div>
 </template>
-
 <script>
 export default {
   name: 'MainLayout',
