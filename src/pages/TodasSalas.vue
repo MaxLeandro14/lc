@@ -1,6 +1,7 @@
 <template>
   <div>
   <q-toolbar style="background: rgb(251, 251, 251); border-bottom: 1px solid #e8e4e4;">
+  <q-btn  @click="back" flat round dense icon="keyboard_backspace"/>
 <q-toolbar-title class="primary-font" style="font-size: 16px;">
 Salas disponíveis
 </q-toolbar-title>
@@ -38,13 +39,18 @@ Salas disponíveis
 
 <script >
 export default {
-  name: 'Error404'
+  name: 'Error404',
+  methods: {
+    back: function () {
+      this.$router.go(-1)
+    }
+  }
 }
 </script>
 <style>
 .salas img {
   margin: 5px 14px 5px 0;
-  max-width: 85px;
+  max-width: 76px;
 }
 .salas p {
 margin: 0;

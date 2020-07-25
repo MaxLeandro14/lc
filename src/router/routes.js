@@ -44,6 +44,15 @@ const routes = [
     path: '/alterarDados', name: 'alterarDados', component: () => import('pages/AlterarDados.vue')
   },
   {
+    path: '/links', name: 'links', component: () => import('pages/Links.vue')
+  },
+  {
+    path: '/inforRegras', name: 'inforRegras', component: () => import('pages/InforRegras.vue')
+  },
+  {
+    path: '/gerenciarSala', name: 'gerenciarSala', component: () => import('pages/GerenciarSala.vue')
+  },
+  {
     path: '*',
     component: () => import('pages/Error404.vue')
   }

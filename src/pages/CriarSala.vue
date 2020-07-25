@@ -25,8 +25,8 @@
           <q-input
             filled
             v-model="nomeLivro"
-            label="Nome do livro *"
-            style="margin-bottom: 7px;"
+            label="Nome do livro"
+            style="margin-bottom: 8px;"
             lazy-rules
             :rules="[ val => val && val.length > 0 || 'Por favor insira o nome']"
           />
@@ -35,10 +35,24 @@
             filled
             type="number"
             v-model="totalPagina"
-            label="Total páginas *"
+            style="margin-bottom: 8px;"
+            label="Total páginas"
             lazy-rules
             :rules="[
               val => val !== null && val !== '' || 'Por favor insira o total de páginas',
+              val => val > 0 && val < 100 || 'Por favor informe um numero real'
+            ]"
+          />
+
+          <q-input
+            filled
+            type="number"
+            v-model="totalParticip"
+            label="Limite de participantes"
+            style="margin-bottom: 8px;"
+            lazy-rules
+            :rules="[
+              val => val !== null && val !== '' || 'Por favor insira o total de participantes',
               val => val > 0 && val < 100 || 'Por favor informe um numero real'
             ]"
           />
@@ -184,6 +198,7 @@ export default {
       step: 1,
       nomeLivro: null,
       totalPagina: null,
+      totalParticip: null,
       debates: null,
       range: {
         start: null,

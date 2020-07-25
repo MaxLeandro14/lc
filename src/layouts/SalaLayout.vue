@@ -15,15 +15,19 @@
     >
     <q-list style="min-width: 140px">
       <q-item clickable>
-          <q-item-section>Links e Downloads</q-item-section>
+          <q-item-section>
+          <router-link :to="{ name: 'links'}" >
+            Links e Downloads
+          </router-link>
+          </q-item-section>
       </q-item>
 
       <q-item clickable>
-        <q-item-section>Template</q-item-section>
-      </q-item>
-
-      <q-item clickable>
-        <q-item-section>Informações e Regras</q-item-section>
+        <q-item-section>
+        <router-link :to="{ name: 'inforRegras'}" >
+          Informações e Regras
+        </router-link>
+      </q-item-section>
       </q-item>
 
       <q-item clickable>
@@ -33,7 +37,11 @@
       <q-separator />
 
       <q-item clickable>
-        <q-item-section>Moderador</q-item-section>
+        <q-item-section>
+          <router-link :to="{ name: 'gerenciarSala'}" >
+            Moderador
+          </router-link>
+        </q-item-section>
       </q-item>
 
       <q-separator />
